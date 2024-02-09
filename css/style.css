@@ -60,6 +60,8 @@ header {
 .right {
     width: 40%;
     padding-top: 3%;
+    font-weight: 800;
+    font-size: 25px;
 }
 
 /* footer */
@@ -85,14 +87,26 @@ footer .top {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
 }
 
 .padding-paragraph {
     padding: 20px 0 10px;
 }
 
+.margin {
+    margin: 30px;
+}
+
 .padding {
     padding: 20px;
+}
+
+.padding-right {
+    padding-right: 10px;
+    
+    display: inline-block;
 }
 
 .white-anchor {
@@ -158,6 +172,11 @@ footer .top {
     color: var(--color-primary);
 }
 
+.btn-black {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
 .btn-violet {
     background-color: var(--color-header-bg);
     color: var(--color-secondary);
@@ -168,8 +187,11 @@ footer .top {
 }
 
 .btn:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.5s;
 }
+
+
 
 
 
