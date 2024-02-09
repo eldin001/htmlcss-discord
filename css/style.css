@@ -40,6 +40,7 @@ header {
     background-image: url('../img/jumbo.png');
     min-height: 500px;
     background-size: cover;
+    padding-top: 100px;
 }
 
 /* main */
@@ -86,18 +87,52 @@ footer .top {
     text-align: center;
 }
 
+.padding-paragraph {
+    padding: 20px 0 10px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.white-anchor {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.white-anchor:hover {
+    text-decoration: underline;
+}
+
+.top-anchor {
+    color: var(--color-header-bg);
+    text-decoration: none;
+}
+
 /* utility flex */
 
 .d-flex {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .row-reverse {
     flex-direction: row-reverse;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
 }
 
 .align-items-center {
@@ -105,6 +140,36 @@ footer .top {
     align-content: center;
 }
 
+.column-direction {
+    flex-direction: column;
+}
+
+/* button */
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-white {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.btn-violet {
+    background-color: var(--color-header-bg);
+    color: var(--color-secondary);
+}
+
+.btn-white:hover {
+    color: var(--color-header-bg);
+}
+
+.btn:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 
 
