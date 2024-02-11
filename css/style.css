@@ -56,9 +56,6 @@ header {
 .right {
     width: 40%;
     padding-top: 3%;
-    font-weight: 800;
-    font-size: 25px;
-
 }
 
 /* footer */
@@ -88,6 +85,11 @@ select {
 
 .wave {
     font-size: 0;
+}
+
+.font {
+    font-size: 40px;
+    font-weight: 800px;
 }
 
 .rotate-image {
@@ -182,10 +184,6 @@ select {
 
 .column-direction {
     flex-direction: column;
-}
-
-.font-size {
-    font-size: 25px;
 }
 
 /* button */
