@@ -87,13 +87,13 @@ select {
     font-size: 0;
 }
 
+.rotate-image {
+    transform: rotate(180deg);
+}
+
 .font {
     font-size: 40px;
     font-weight: 800px;
-}
-
-.rotate-image {
-    transform: rotate(180deg);
 }
 
 .container {
@@ -109,6 +109,7 @@ select {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position:center;
 }
 
 .padding-paragraph {
@@ -121,6 +122,10 @@ select {
 
 .padding {
     padding: 20px;
+}
+
+.line-height-paragraph {
+    line-height: 30px;
 }
 
 .padding-right {
@@ -216,5 +221,5 @@ select {
 
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transition: 0.5s;
+    transition: ease-in-out 0.5s;
 }
