@@ -47,6 +47,10 @@ header {
     width: 40%;
 }
 
+.hero {
+    color: var(--color-secondary);
+}
+
 .hero-anchor {
     display: inline-block;
     text-decoration: none;
@@ -98,10 +102,15 @@ header {
     justify-content: space-between;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 .align-center {
     align-items: center;
     align-content: center;
 }
+
 
 .justify-center {
     justify-content: center;
@@ -152,4 +161,30 @@ header {
 .btn:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transition: ease-in-out 0.5s;
+}
+
+/* animation */
+.arrow:hover {
+    animation: arrow-slide 2s ease 0s 1 normal forwards;
+}
+
+@keyframes arrow-slide {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(100px);
+	}
+}
+
+/* footer */
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+footer .top {
+    border-bottom: 1px solid var(--color-contrast);
 }
